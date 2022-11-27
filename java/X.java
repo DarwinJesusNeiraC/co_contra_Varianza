@@ -6,7 +6,7 @@
 
 public class X {
   int x = 0;
-  public A foo(B b) {
+  public B foo(B b) {
     System.out.format("X::foo(B), retorna A %d\n", x);
     return b;
   }
