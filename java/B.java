@@ -5,7 +5,8 @@
 */
 
 public interface B extends A {
-  public void goo();
-
+  @Override
+  public void ave();
+  public void bala();
 }
 

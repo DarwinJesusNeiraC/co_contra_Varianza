@@ -5,6 +5,6 @@
 */
 
 public interface A {
-  public void foo();
+  public void ave();
 }
 

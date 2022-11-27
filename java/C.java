@@ -4,7 +4,12 @@
 * @Descripcion:
 */
 
-public interface C extends A {
-  public void roo(); 
+public interface C extends B {
+  @Override
+  public void ave(); 
+  @Override
+  public void bala();
+
+  public void casa(); 
 }
 
