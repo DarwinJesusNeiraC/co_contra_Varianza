@@ -34,7 +34,7 @@ public class Main {
     X x = new X();
     x.foo(b);
     Y y = new Y();
-    y.foo(a);
+    y.foo(b);
   }
 }
 
