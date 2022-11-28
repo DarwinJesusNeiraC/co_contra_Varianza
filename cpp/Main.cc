@@ -14,7 +14,7 @@ int main() {
   X *x = new X();
   Y *y = new Y();
 
-  x->foo(b);
+  x->foo(a);
   y->foo(b);
 
 }

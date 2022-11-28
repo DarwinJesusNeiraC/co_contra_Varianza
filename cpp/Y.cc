@@ -6,7 +6,7 @@
 
 class Y :public X{
   public:
-    virtual B foo(B b){
+    virtual A foo(B b){
       printf("foo Y, retorna A , recibe B\n");
       return b;
     }
